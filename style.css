@@ -135,21 +135,20 @@ header nav a:hover {
 }
 
 /* == Hero == */
-
 .hero {
   height: 400px;
-  background-image: url(http://rv-roadtrips.thefuntimesguide.com/images/blogs/rv-fire-by-Aaron-Jack.jpg);
+  background-image: url(images/rv-disaster.jpg);
   background-repeat: no-repeat;
-  xbackground-position: center;
-  xbackground-size: cover;
+  background-position: center center;
+  background-size: cover;
   margin: 0px 0;
 }
 
-.hero h1 {
-  color: #fff;
+main .hero h1 {
+  color: #cacaca;
   padding-top: 5px;
   text-align: center;
-  font-size: 50px;
+  font-size: 10px;
   xtext-shadow: 0 0 10px #000;
   margin: 0;
 }
