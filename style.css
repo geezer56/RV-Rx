@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Faster+One');
+@import url('https://fonts.googleapis.com/css?family=Contrail+One');
 * {
     box-sizing: border-box;
 }
@@ -68,7 +69,7 @@ header h1 a:hover {
 
 header nav {
     float: right;
-    margin-top: 80px ;
+    margin-top: 80px;
     padding-right: 60px;
 }
 
@@ -86,18 +87,36 @@ header nav a:hover {
 
 
 /* -------- =Column Layout -------*/
-.mission {background-color: darksalmon;
+
+.frisco {
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Contrail One', cursive;
+    margin-top: 10px;
+}
+
+.mission {
+    background-color: #d39473;
     width: 450px;
-    margin: 10px 260px 10px 460px ;
+    margin: 10px 260px 10px 460px;
     border-radius: 10px;
     border: 2px solid #000;
+    box-shadow: 5px 5px 8px #000;
 }
-h4 {text-align: center;
-font-size: 26px;
-border: 2px solid #000;
-border-radius: 10px;
-background-color: darksalmon;
-box-shadow: 5px 5px 8px #000;}
+.mission h2 {margin: 10px 10px;}
+
+h4 {
+    text-align: center;
+    font-size: 26px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    background-color: #d39473;
+    box-shadow: 5px 5px 8px #000;
+}
+
+hr {height: 3px;
+background-color:#d39473; }
 
 .container {
     width: 980px;
@@ -109,7 +128,6 @@ box-shadow: 5px 5px 8px #000;}
     min-width: 760px;
     /* Adjust as needed */
 }
-
 
 .col-1 {
     width: 8.33333333%;
@@ -174,6 +192,11 @@ box-shadow: 5px 5px 8px #000;}
     float: left;
     padding-right: 10px;
     padding-left: 10px;
+}
+
+.row {
+    width: 980px;
+    margin: auto;
 }
 
 .row:after {
