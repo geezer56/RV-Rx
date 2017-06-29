@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css?family=Faster+One');
+* {
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+
+/* ----- =structure ----- */
+
+header {
+    background-color: #fff;
+    border-bottom: 1px solid grey;
+}
+
+header:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+main {
+    min-height: 600px;
+}
+
+footer {
+    background-color: orange;
+}
+
+
+/* ----- =logo ----- */
+
+header h1 {
+    float: left;
+    font-family: 'Faster One', cursive;
+    font-size: 100px;
+    margin: 10px 0 10px 60px;
+}
+
+header h1 a {
+    color: red;
+    text-decoration: none;
+}
+
+header h1 a:hover {
+    color: green;
+}
+
+.descriptor {
+    color: #000;
+    width: 400px;
+    font-size: 16px;
+    margin: auto;
+    padding-top: 30px;
+    padding-left: 80px;
+}
+
+.logo {
+    /* If you use an image, replace the h1 in the header 
+     with an image wrapped within the div with class .logo */
+    xwidth: 400px;
+}
+
+
+/* ----- =navigation ----- */
+
+header nav {
+    float: right;
+    margin-top: 80px ;
+    padding-right: 60px;
+}
+
+header nav a {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: #424254;
+    margin-left: 40px;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    color: red;
+}
+
+
+/* -------- =Column Layout -------*/
+.mission {background-color: darksalmon;
+    width: 450px;
+    margin: 10px 260px 10px 460px ;
+    border-radius: 10px;
+    border: 2px solid #000;
+}
+h4 {text-align: center;
+font-size: 26px;
+border: 2px solid #000;
+border-radius: 10px;
+background-color: darksalmon;
+box-shadow: 5px 5px 8px #000;}
+
+.container {
+    width: 980px;
+    margin: auto;
+}
+
+.container-fluid {
+    width: 100%;
+    min-width: 760px;
+    /* Adjust as needed */
+}
+
+
+.col-1 {
+    width: 8.33333333%;
+}
+
+.col-2 {
+    width: 16.66666667%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33333333%;
+}
+
+.col-5 {
+    width: 41.66666667%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 54.33%;
+}
+
+.col-8 {
+    width: 66.66666667%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33333333%;
+}
+
+.col-11 {
+    width: 91.66666667%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12 {
+    float: left;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.row:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+
+/* == Typography == */
+
+.center {
+    text-align: center;
+}
+
+
+/* == Hero == */
+
+.hero {
+    height: 400px;
+    background-image: url(images/A-on-Beach-At-Sunset-Web-1024x683.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: 0px 0;
+}
+
+.hero h1 {
+    color: #fff;
+    padding-top: 145px;
+    xtext-align: center;
+    font-size: 40px;
+    text-shadow: 0 0 10px #000;
+    margin: 0;
+}
