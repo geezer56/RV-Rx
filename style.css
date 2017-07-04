@@ -95,6 +95,10 @@ header nav a:hover {
     font-family: 'Contrail One', cursive;
     margin-top: 10px;
 }
+.charges {font-size: 12px;
+width: 980px;
+    margin: auto;
+text-align: center;}
 
 .mission {
     background-color: #d39473;
@@ -113,10 +117,12 @@ h4 {
     border-radius: 10px;
     background-color: #d39473;
     box-shadow: 5px 5px 8px #000;
+    width: 50%;
+    margin: auto;
 }
 
-hr {height: 3px;
-background-color:#d39473; }
+.services { width: 980px;
+    margin:20px 0 0 200px;}
 
 .container {
     width: 980px;
